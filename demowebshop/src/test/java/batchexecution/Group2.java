@@ -8,6 +8,7 @@ public class Group2 {
 	public void LoginTest() {
 
 		System.out.println("Executing Login Test");
+		System.out.println("Executing Login Test success");
 
 	}
 

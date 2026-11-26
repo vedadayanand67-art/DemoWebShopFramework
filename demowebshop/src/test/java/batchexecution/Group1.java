@@ -16,6 +16,7 @@ public class Group1 {
 	public void SubscribeTest() {
 
 		System.out.println("Executing Subscribe Test");
+		System.out.println("Executing Subscribe Test success");
 
 	}
 
