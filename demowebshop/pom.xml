@@ -20,6 +20,27 @@
         <version>7.11.0</version>
         <scope>test</scope>
     </dependency>
+    
 
 </dependencies>
+ <profiles>
+
+        <!-- Smoke Testing -->
+        <profile>
+            <id>ST</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>Grouping.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+         </profiles>
 </project>
