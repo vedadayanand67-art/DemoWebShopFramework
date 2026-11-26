@@ -17,6 +17,7 @@ public class Group2 {
 	public void RegisterTest() {
 
 		System.out.println("Executing Register Test");
+		System.out.println("Executing Register Test success");
 
 	}
 
