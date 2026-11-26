@@ -1,3 +1,4 @@
+package demowebshop;
 
 
 import org.openqa.selenium.WebDriver;
